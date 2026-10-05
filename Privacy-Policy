@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for RecRem Mail">
+  <title>Privacy Policy | RecRem Mail</title>
+
+  <style>
+    :root {
+      --primary: #1a73e8;
+      --primary-dark: #1557b0;
+      --text: #202124;
+      --muted: #5f6368;
+      --border: #dadce0;
+      --background: #f8fafd;
+      --card: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a73e8, #174ea6);
+      color: white;
+      padding: 64px 20px 56px;
+    }
+
+    .header-content {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 20px;
+      font-size: 13px;
+      margin-bottom: 18px;
+      background: rgba(255,255,255,.1);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 42px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0;
+      opacity: .92;
+      font-size: 17px;
+    }
+
+    .date {
+      margin-top: 18px;
+      font-size: 14px;
+      opacity: .82;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .toc,
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(60,64,67,.08);
+    }
+
+    .toc {
+      padding: 24px 28px;
+      margin-bottom: 24px;
+    }
+
+    .toc h2 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    .toc a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
+    }
+
+    .toc ul {
+      margin-bottom: 0;
+    }
+
+    section {
+      padding: 30px;
+      margin-bottom: 18px;
+      scroll-margin-top: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      line-height: 1.35;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 24px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 7px;
+    }
+
+    .contact {
+      background: #e8f0fe;
+      border-color: #c6dafc;
+    }
+
+    .contact a {
+      color: var(--primary-dark);
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 30px 20px 45px;
+      font-size: 14px;
+    }
+
+    .top-button {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      width: 42px;
+      height: 42px;
+      border: none;
+      border-radius: 50%;
+      background: var(--primary);
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+      display: none;
+      box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    }
+
+    .top-button:hover {
+      background: var(--primary-dark);
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 45px 18px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      main {
+        margin: 24px auto;
+        padding: 0 12px;
+      }
+
+      section,
+      .toc {
+        padding: 22px;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      header {
+        background: white;
+        color: black;
+        padding: 20px 0;
+      }
+
+      .toc,
+      section {
+        box-shadow: none;
+      }
+
+      .top-button {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="badge">Google Workspace Add-on</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">RecRem Mail</p>
+      <p class="date"><strong>Effective Date:</strong> October 5, 2026</p>
+    </div>
+  </header>
+
+  <main>
+
+    <nav class="toc" aria-label="Table of Contents">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#introduction">1. Introduction</a></li>
+        <li><a href="#information">2. Information the Add-on Accesses</a></li>
+        <li><a href="#use">3. How Information Is Used</a></li>
+        <li><a href="#google-data">4. Google User Data</a></li>
+        <li><a href="#email">5. Email Content</a></li>
+        <li><a href="#sheets">6. Google Sheets Data</a></li>
+        <li><a href="#storage">7. Data Storage</a></li>
+        <li><a href="#sharing">8. Data Sharing</a></li>
+        <li><a href="#security">9. Data Security</a></li>
+        <li><a href="#retention">10. Data Retention and Deletion</a></li>
+        <li><a href="#third-party">11. Third-Party Services</a></li>
+        <li><a href="#children">12. Children's Privacy</a></li>
+        <li><a href="#changes">13. Changes to This Privacy Policy</a></li>
+        <li><a href="#contact">14. Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="introduction">
+      <h2>1. Introduction</h2>
+      <p>
+        RecRem Mail ("the Add-on", "we", "us", or "our") is a Google Workspace
+        add-on designed to help users create, schedule, and manage email
+        reminders, including recurring email reminders, through Google Workspace.
+      </p>
+      <p>
+        This Privacy Policy explains how the Add-on handles information when
+        you install and use it.
+      </p>
+    </section>
+
+    <section id="information">
+      <h2>2. Information the Add-on Accesses</h2>
+      <p>Depending on the features you use, the Add-on may access:</p>
+      <ul>
+        <li>Your Google account information required for authentication.</li>
+        <li>Google Sheets data that you authorize the Add-on to access.</li>
+        <li>Email addresses used as recipients.</li>
+        <li>Email subject lines and message content entered for reminders.</li>
+        <li>Scheduling dates and times.</li>
+        <li>Recurring reminder settings.</li>
+        <li>Information necessary to record the status of scheduled emails.</li>
+      </ul>
+      <p>The Add-on only accesses information necessary to provide its functionality.</p>
+    </section>
+
+    <section id="use">
+      <h2>3. How Information Is Used</h2>
+      <p>Information accessed by the Add-on is used solely to:</p>
+      <ul>
+        <li>Create email reminders.</li>
+        <li>Schedule emails for a specified date and time.</li>
+        <li>Send recurring emails according to the schedule configured by the user.</li>
+        <li>Read information required from an authorized Google Sheet.</li>
+        <li>Update reminder or sending status.</li>
+        <li>Identify and handle failed email-sending operations.</li>
+        <li>Provide and maintain the Add-on's functionality.</li>
+      </ul>
+    </section>
+
+    <section id="google-data">
+      <h2>4. Google User Data</h2>
+      <p>
+        The Add-on may access Google user data through Google APIs. Google user
+        data is used only to provide the functionality requested by the user.
+      </p>
+      <p>We do not:</p>
+      <ul>
+        <li>Sell Google user data.</li>
+        <li>Rent Google user data.</li>
+        <li>Use Google user data for advertising.</li>
+        <li>Use Google user data to create advertising profiles.</li>
+        <li>Sell or transfer Google user data to data brokers.</li>
+        <li>Use Google user data for purposes unrelated to the Add-on's functionality.</li>
+      </ul>
+    </section>
+
+    <section id="email">
+      <h2>5. Email Content</h2>
+      <p>
+        When a user creates a reminder, the Add-on may process the information
+        necessary to send that email, including:
+      </p>
+      <ul>
+        <li>Recipient email address</li>
+        <li>CC/BCC addresses, if provided</li>
+        <li>Email subject</li>
+        <li>Email body</li>
+        <li>Scheduled date and time</li>
+        <li>Recurring schedule</li>
+      </ul>
+      <p>
+        This information is used only to send the email according to the user's instructions.
+      </p>
+    </section>
+
+    <section id="sheets">
+      <h2>6. Google Sheets Data</h2>
+      <p>
+        The Add-on may read and write information in Google Sheets when the user
+        authorizes it to do so.
+      </p>
+      <p>This information may include:</p>
+      <ul>
+        <li>Recipient details</li>
+        <li>Email content</li>
+        <li>Scheduling information</li>
+        <li>Recurring schedules</li>
+        <li>Reminder status</li>
+      </ul>
+      <p>
+        The Add-on does not intentionally access unrelated Google Sheets or
+        information that is not necessary for its functionality.
+      </p>
+    </section>
+
+    <section id="storage">
+      <h2>7. Data Storage</h2>
+      <p>
+        The Add-on is designed to use Google Workspace services for processing
+        and storing information required for its operation.
+      </p>
+      <p>
+        We do not sell or commercially distribute information processed through
+        the Add-on.
+      </p>
+      <p>
+        Where information is stored within a user's Google account or Google
+        Sheets, that information remains subject to Google's applicable terms
+        and privacy practices.
+      </p>
+    </section>
+
+    <section id="sharing">
+      <h2>8. Data Sharing</h2>
+      <p>
+        We do not sell, rent, or share users' personal information or Google
+        user data with third parties for advertising or marketing purposes.
+      </p>
+      <p>
+        Information may be disclosed if required by applicable law, regulation,
+        legal process, or valid governmental request.
+      </p>
+    </section>
+
+    <section id="security">
+      <h2>9. Data Security</h2>
+      <p>
+        We take reasonable measures to protect information processed by the
+        Add-on against unauthorized access, modification, disclosure, or destruction.
+      </p>
+      <p>
+        Users are responsible for protecting their Google accounts and
+        controlling access to their Google Sheets and other Google Workspace resources.
+      </p>
+      <p>
+        No internet-based service can guarantee absolute security.
+      </p>
+    </section>
+
+    <section id="retention">
+      <h2>10. Data Retention and Deletion</h2>
+      <p>
+        The Add-on retains information only for as long as reasonably necessary
+        to provide its functionality.
+      </p>
+      <p>
+        Information stored in Google Sheets remains under the user's control
+        and can be deleted by the user.
+      </p>
+      <p>
+        A user may also revoke the Add-on's Google account permissions through
+        their Google Account settings.
+      </p>
+    </section>
+
+    <section id="third-party">
+      <h2>11. Third-Party Services</h2>
+      <p>
+        The Add-on may use Google APIs and Google Workspace services to provide
+        its functionality.
+      </p>
+      <p>
+        The Add-on does not share Google user data with third-party services
+        unless such sharing is necessary for a feature that the user explicitly
+        uses and is disclosed accordingly.
+      </p>
+    </section>
+
+    <section id="children">
+      <h2>12. Children's Privacy</h2>
+      <p>
+        The Add-on is intended for general productivity and business use and is
+        not specifically directed toward children.
+      </p>
+      <p>
+        We do not knowingly collect personal information from children through
+        the Add-on.
+      </p>
+    </section>
+
+    <section id="changes">
+      <h2>13. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy if the Add-on's functionality,
+        services, or data practices change.
+      </p>
+      <p>
+        Any updated Privacy Policy will include a revised effective date.
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>14. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy or the Add-on's privacy
+        practices, please contact:
+      </p>
+      <p>
+        <strong>RecRem Mail</strong><br>
+        Email:
+        <a href="mailto:satanand74@gmail.com">satanand74@gmail.com</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> RecRem Mail. All rights reserved.</p>
+  </footer>
+
+  <button id="topButton" class="top-button" aria-label="Back to top" title="Back to top">
+    ↑
+  </button>
+
+  <script>
+    // Automatically display the current year in the footer.
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Back-to-top button.
+    const topButton = document.getElementById("topButton");
+
+    window.addEventListener("scroll", function () {
+      topButton.style.display = window.scrollY > 400 ? "block" : "none";
+    });
+
+    topButton.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+
+</body>
+</html>
